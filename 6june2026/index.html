@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apache Kafka</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        body {
+            background-color: rgb(233, 223, 223);
+        }
+        
+        nav{
+            background-color: white;
+        }
+
+        .logo {
+            /* margin-top: 15px; */
+            margin-left: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
+        .center {
+            display: flex;
+            justify-content: space-around;
+            /* align-items: end; */
+            align-content: end;
+            padding-left: 328px;
+        }
+
+        .nav-lists {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+
+        }
+
+        .nav-lists li{
+            list-style: none;
+            justify-content: center;
+            margin-top: 13px;
+        }
+
+        .download{
+            align-content: end;
+        }
+
+        .download button{
+            margin-left: 30px;
+            height: 40px;
+            width: 170px;
+            background-color: #434D5F;
+            color: white;
+            border-radius: 10px;
+            padding: auto;
+            font-weight: bold;
+            border: #434D5F 2px solid;
+        }
+
+        .download :hover {
+            cursor: pointer;
+            transform: translateY(-1px);
+            transition: 0.1s ease;
+            opacity: 0.95;
+
+
+        }
+        
+        .nav-lists li a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 650;
+        }
+
+        .nav-lists li :hover{
+            color: #017BFF;
+        }
+
+        .search {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;  
+            outline: none;  
+            object-fit: cover; 
+            color: #6C757D;
+            background-color: white;
+            font-weight: bold;
+            border: #6C757D 2px solid;
+            margin-right: 11px;
+        }
+        
+        .dropdown-getstarted {
+            display: none;
+            z-index: 1;
+        }
+
+        .search :hover{
+            cursor: pointer;
+        }
+        .logo a img{
+            height: 50px;
+        
+        }
+
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="../Assets/kafka_logo--simple.png" alt=""></a>
+            </div>
+            <div class="center">
+                <div>
+                    <ul class="nav-lists">
+                        <li>
+                            <a href="">GET STARTED<i class="ri-arrow-drop-down-fill"></i>
+                            <div class="dropdown-getstarted">
+                                <a href="">INTRODUCTION</a>
+                                <a href="">QUICK START</a>
+                                <a href="">USE CASES</a>
+                                <a href="">BOOKS AND PAPERS</a>
+                                <a href="">VIDEOS</a>
+                                <a href="">PODCASTS</a>
+                            </div>
+                        </li>
+                        <li><a href="">DOCS<i class="ri-arrow-drop-down-fill"></i></a></li>
+                        <li><a href="">POWERED BY</a></li>
+                        <li><a href="">COMMUNITY<i class="ri-arrow-drop-down-fill"></i></a></li>
+                        <li><a href="">APACHE<i class="ri-arrow-drop-down-fill"></i></a></li>
+                        <li><a href="">RELEASES<i class="ri-arrow-drop-down-fill"></i></a></li>
+                    </ul>
+                </div>
+                <div class="download">
+                    <button>DOWNLOAD KAFKA</button>
+                </div>
+            </div>
+            <div class="search-div">
+                <button class="search"><i class="ri-search-line"></i></button>
+            </div>
+        </div>    
+    </nav>
+    
+</body>
+</html>
