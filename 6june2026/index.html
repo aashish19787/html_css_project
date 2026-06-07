@@ -10,301 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-
-        }
-        .body-in {
-            background-color: #C5C5C9;
-        }
-        
-        /* NAV STYLE */
-        nav{
-            background-color: white;
-        }
-
-        .logo {
-            /* margin-top: 15px; */
-            margin-left: 10px;
-        }
-
-        .container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
-        .center {
-            display: flex;
-            justify-content: space-around;
-            /* align-items: end; */
-            align-content: end;
-            padding-left: 328px;
-        }
-
-        .nav-lists {
-            display: flex;
-            justify-content: space-between;
-            gap: 15px;
-
-        }
-
-        .nav-lists li{
-            list-style: none;
-            justify-content: center;
-            margin-top: 13px;
-        }
-
-        .download-btn {
-            align-content: end;
-        }
-
-        .download-btn button{
-            margin-left: 30px;
-            height: 40px;
-            width: 170px;
-            background-color: #434D5F;
-            color: white;
-            border-radius: 10px;
-            padding: auto;
-            font-weight: bold;
-            border: #434D5F 2px solid;
-        }
-
-        .download-btn :hover {
-            cursor: pointer;
-            transform: translateY(-1px);
-            transition: 0.1s ease;
-            opacity: 0.95;
-        }
-        
-        .nav-lists li a{
-            text-decoration: none;
-            color: black;
-            font-size: 15px;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 650;
-        }
-
-        .nav-lists li :hover{
-            color: #017BFF;
-        }
-
-        .search {
-            height: 40px;
-            width: 40px;
-            border-radius: 50%;  
-            outline: none;  
-            object-fit: cover; 
-            color: #6C757D;
-            background-color: white;
-            font-weight: bold;
-            border: #6C757D 2px solid;
-            margin-right: 11px;
-        }
-        
-        .dropdown-getstarted {
-            display: none;
-            z-index: 1;
-        }
-
-        .search:hover{
-            cursor: pointer;
-        }
-        .logo a img{
-            height: 50px;
-        
-        }
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="../Assets/apache.png">
 
 
-        /* HERO STYLE */
-        .logo-tall{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-top: 65px;
-        }
-
-        .logo-tall img {
-            height: 399.99;
-            width: 9999995.44;
-        }
-
-        .btn2{
-            display: flex;
-            gap: 25px;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .btn2_1 {
-            background-color: #017BFF;
-            color: white;
-            height: 40px;
-            width: 170px;
-            border-radius: 10px;
-            border: none;
-        }
-        .btn2_2{
-            background-color: #70787D;
-            color: black;
-            height: 40px;
-            width: 170px;
-            border-radius: 10px;
-            border: none;
-        }
-
-        .btn2_1:hover {
-            cursor: pointer;
-            transform: translateY(-1px);
-            transition: 0.1s ease;
-            background-color: #3289FF;
-        }
-
-        .btn2_2:hover {
-            cursor: pointer;
-            transform: translateY(-1px);
-            transition: 0.1s ease;
-            background-color: #7E878E;
-        }
-
-        .landing-below {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            margin-top: 100px;
-        }
-
-        .landing-below p {
-            font-family: 'Roboto', sans-serif;
-            font-style: italic;
-            font-weight: 100;
-            font-size: 20px;
-        }
-
-        .landing-below h1{
-            background-color: black;
-            color: white;
-            height: 65px;
-            width: 65px;
-            border-radius: 50%;
-            font-size: 65px;
-            font-weight: 125;
-            margin-top: 25px;
-            margin-bottom: 106px;
-        }
-        .hero2 {
-            height: 207px;
-            width: auto;
-
-        }
-
-        .hero2_1 {
-            justify-items: center;
-            margin-top: 80px;
-            text-align: center;
-            
-        }
-
-        .p1 {
-            font-size: 40px;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            font-weight: 225;
-        }
-
-        .p2 {
-            margin-top: 10px;
-            font-size: 15px;
-            width: 1225px;
-            display: flex;
-            align-items: center;
-            font-family: "Open Sans", sans-serif;
-
-        }
-
-        .span1 {
-            color: white;
-        }
-        
-        .span1:hover{
-            color: #348BFF;
-            cursor: pointer;
-        }
-
-        .hero3 {
-            background-color: #403F4C;
-            color: white;
-            margin-top: 0px;
-        }
-
-        .p3{
-            margin-top: 0;
-            font-size: 70px;
-            justify-items: center;
-            
-        }
-    /* 
-        .ul-1 {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            list-style: none;
-            font-size: 50px;
-            
-        }
-
-        .ul-2 {
-            font-size: 18px;
-            font-weight: 500;
-            line-height: 21px;
-            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            list-style: none;
-            
-        }
-
-        .ul-3 {
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 23px;
-            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            list-style: none;
-
-        }
-
-        .ul-4 {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            list-style: none;
-            font-size: 50px;
-            
-        } */
-
-        .box1{
-            display: flex;
-            justify-content: space-around;
-
-        }
-
-        .box2 {
-            display: flex;
-            justify-content: space-around;
-            
-        }
-
-    </style>
 </head>
 <body>
     <div class="body-in">
@@ -355,7 +64,7 @@
                 <img src="../Assets/kafka-logo-tall.png" alt="Tall Logo">
             </div>
             <div class="btn2">
-                <button class="btn2_1">Learn More <i class="ri-arrow-right-circle-line"></i></button>
+                <button class="btn2_1">Learn More <i class="ri-arrow-right-circle-fill"></i></button>
                 <button class="btn2_2">Download <i class="ri-download-2-line"></i></button>
             </div>
             <div class="landing-below">
@@ -374,48 +83,107 @@
 
         <div class="hero3">
             <div class="p3">
-                <p class="p3"><i class="ri-arrow-down-s-fill"></i></p>
+                <p class="p3element"><i class="ri-arrow-down-s-fill"></i></p>
             </div>
             
-            <!--<ul class="ul-1">
-                <li><i class="ri-building-3-fill"></i></li>
-                <li><i class="ri-bank-fill"></i></li>
-                <li><i class="ri-earthquake-fill"></i></li>
-            </ul>
+            <div class="box-main">
+                    <div class="up-box">
+                        <div class="box1">
+                            <div class="box1_1">
+                                <i class="ri-building-3-fill"></i>
+                            </div>
+                            <div class="box1_2">
+                                Manufacturing
+                            </div>
+                            <div class="box1_3">
+                                10 OUT OF 10
+                            </div>
+                            <!-- <p><i class="ri-building-3-fill"></i><br>Manufacturing <br>10 OUT OF 10</p> -->
+                        </div>
 
-            <ul class="ul-2">
-                <li>Manufacturing</li>
-                <li>Banks</li>
-                <li>Insurance</li>
-            </ul>
+                        <div class="box2">
+                            <div class="box2_1">
+                                <i class="ri-bank-fill"></i>
+                            </div>
+                            <div class="box2_2">
+                                Banks
+                            </div>
+                            <div class="box2_3">
+                                7 OUT OF 10
+                            </div>
+                            <!-- <p><i class="ri-bank-fill"></i><br>Banks <br>7 OUT OF 10</p> -->
+                        </div>
 
-            <ul class="ul-3"> 
-                <li>10 OUT OF 10</li>
-                <li>7 OUT OF 10</li>
-                <li>10 OUT OF 10</li>
-            </ul>
+                        <div class="box3">
+                            <div class="box3_1">
+                                <i class="ri-earthquake-fill"></i>
+                            </div>
+                            <div class="box3_2">
+                                Insurance
+                            </div>
+                            <div class="box3_3">
+                                10 OUT OF 10
+                            </div>
+                            <!-- <p><i class="ri-earthquake-fill"></i><br>Insurance <br>10 OUT OF 10</p> -->
+                        </div>
+                    </div>
+                    
+                    <div class="down-box">
+                        <div class="box4">
+                            <div class="box4_1">
+                                <i class="ri-base-station-fill"></i>
+                            </div>
+                            <div class="box4_2">
+                                Telecom
+                            </div>
+                            <div class="box4_3">
+                                8 OUT OF 10
+                            </div>
+                            <!-- <p><i class="ri-base-station-fill"></i><br>Base Station <br>8 OUT OF 10</p> -->
+                        </div>
 
-            <ul class="ul-4">
-                <li><i class="ri-base-station-fill"></i></li>
-                <li><i class="ri-plane-line"></i></li>
-                <li><i class="ri-lightbulb-flash-line"></i></li>
-            </ul> -->
+                        <div class="box5">
+                            <div class="box5_1">
+                                <i class="ri-plane-fill"></i>
+                            </div>
+                            <div class="box5_2">
+                                Transportation
+                            </div>
+                            <div class="box5_3">
+                                8 OUT OF 10
+                            </div class="box5_3">
+                            <!-- <p><i class="ri-plane-line"></i><br>Plane <br>8 OUT OF 10<p> -->
+                            
+                        </div>
 
-                <div class="box1">
-                    <p><i class="ri-building-3-fill"></i><br>Manufacturing <br>10 OUT OF 10</p>
-                    <p><i class="ri-bank-fill"><br>Banks <br>7 OUT OF 10</i>
-                    <p><i class="ri-earthquake-fill"></i><br>Insurance <br>10 OUT OF 10</p>
+                        <div class="box6">
+                            <div class="box6_1">
+                                <i class="ri-lightbulb-flash-line"></i>
+                            </div>
+                            <div class="box6_2">
+                                Energy and Utilities
+                            </div>
+                            <div class="box6_3">
+                                10 OUT OF 10
+                            </div>
+                            <!-- <p><i class="ri-lightbulb-flash-line"></i><br>Energy and Utilities<br>10 OUT OF 10<p></p> -->
+                        </div>
+                        
+                    </div>
+                    
+
                 </div>
-
-                <div class="box2">
-                    <p><i class="ri-base-station-fill"></i><br>Base Station <br>8 OUT OF 10</p>
-                    <p><i class="ri-plane-line"></i><br>Plane <br>8 OUT OF 10<p>
-                    <p><i class="ri-lightbulb-flash-line"></i><br>Energy and Utilities<br>10 OUT OF 10<p>
+                <div class="p-btn">
+                    <div>
+                        <p class="hero3-moto">Above is a snapshot of the number of top-ten largest companies using Kafka, per-industry.</p>
+                    </div>
+                    <div>
+                        <button>See full list &nbsp; <span><i class="ri-arrow-right-fill"></i></span></button>
+                    </div>
                 </div>
-
-
             </div>
 
+            
 
         </div>
 

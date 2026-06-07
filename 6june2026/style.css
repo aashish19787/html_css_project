@@ -1,0 +1,451 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .body-in {
+            background-color: #C5C5C9;
+        }
+        
+        /* NAV STYLE */
+        nav{
+            background-color: white;
+        }
+
+        .logo {
+            /* margin-top: 15px; */
+            margin-left: 10px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            /* padding-top: 10px; */
+            padding-bottom: 10px;
+            background-color: white;
+            position: fixed;
+            width: 100%;
+        }
+
+        .center {
+            display: flex;
+            justify-content: space-around;
+            /* align-items: end; */
+            align-content: end;
+            padding-left: 328px;
+        }
+
+        .nav-lists {
+            display: flex;
+            justify-content: space-between;
+            gap: 15px;
+
+        }
+
+        .nav-lists li{
+            list-style: none;
+            justify-content: center;
+            margin-top: 13px;
+        }
+
+        .download-btn {
+            align-content: end;
+        }
+
+        .download-btn button{
+            margin-left: 30px;
+            height: 40px;
+            width: 170px;
+            background: linear-gradient(180deg, #4a5568 0%, #2d3748 100%) !important;
+            color: white;
+            border-radius: 10px;
+            padding: auto;
+            font-weight: bold;
+            border: #434D5F 2px solid;
+        }
+
+        .download-btn :hover {
+            cursor: pointer;
+            transform: translateY(-1px);
+            transition: 0.1s ease;
+            opacity: 0.95;
+        }
+        
+        .nav-lists li a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 650;
+        }
+
+        .nav-lists li :hover{
+            color: #017BFF;
+        }
+
+        .search {
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;  
+            outline: none;  
+            object-fit: cover; 
+            color: #6C757D;
+            background-color: white;
+            font-weight: bold;
+            border: #6C757D 2px solid;
+            margin-right: 11px;
+        }
+        
+        .dropdown-getstarted {
+            display: none;
+            z-index: 1;
+        }
+
+        .search:hover{
+            cursor: pointer;
+        }
+        .logo a img{
+            height: 50px;
+        
+        }
+
+
+        /* HERO STYLE */
+        .logo-tall{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* margin-top: 65px; */
+
+        }
+
+        .logo-tall img {
+            height: 475px;
+            /* width: 9999995.44; */
+            margin-top: 100px;
+        }
+
+        .btn2{
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn2_1 {
+            background-color: #017BFF;
+            color: white;
+            height: 40px;
+            width: 170px;
+            border-radius: 10px;
+            border: none;
+            font-family: "Open Sans", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        .btn2_2{
+            background-color: #70787D;
+            color: black;
+            height: 40px;
+            width: 170px;
+            border-radius: 10px;
+            border: none;
+            font-family: "Open Sans", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+
+        .btn2_1:hover {
+            cursor: pointer;
+            transform: translateY(-1px);
+            transition: 0.1s ease;
+            background-color: #3289FF;
+        }
+
+        .btn2_2:hover {
+            cursor: pointer;
+            transform: translateY(-1px);
+            transition: 0.1s ease;
+            background-color: #7E878E;
+        }
+
+        .landing-below {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+
+        .landing-below p {
+            font-family: 'Roboto', sans-serif;
+            font-style: italic;
+            font-weight: 100;
+            font-size: 20px;
+        }
+
+        .landing-below h1{
+            background-color: black;
+            color: white;
+            height: 65px;
+            width: 65px;
+            border-radius: 50%;
+            font-size: 65px;
+            font-weight: 125;
+            margin-top: 25px;
+            margin-bottom: 106px;
+        }
+        .hero2 {
+            height: 207px;
+            width: auto;
+
+        }
+
+        .hero2_1 {
+            justify-items: center;
+            margin-top: 80px;
+            text-align: center;
+            
+        }
+
+        .p1 {
+            font-size: 40px;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-weight: 225;
+        }
+
+        .p2 {
+            margin-top: 10px;
+            font-size: 15px;
+            width: 1225px;
+            display: flex;
+            align-items: center;
+            font-family: "Open Sans", sans-serif;
+
+        }
+
+        .span1 {
+            color: white;
+        }
+        
+        .span1:hover{
+            color: #348BFF;
+            cursor: pointer;
+        }
+
+        .hero3 {
+            background-color: #403F4C;
+            color: white;
+            margin-top: 0px;
+            height: auto;
+        }
+
+        .p3{
+            margin-top: 0;
+            font-size: 120px;
+            justify-items: center; 
+            position: relative;
+            top: -51px;
+        }
+        .p3element {
+            margin: 0;
+            padding-top: 0;
+        }
+    /* 
+        .ul-1 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            font-size: 50px;
+            
+        }
+
+        .ul-2 {
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            
+        }
+
+        .ul-3 {
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 23px;
+            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+
+        }
+
+        .ul-4 {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            font-size: 50px;
+            
+        } */
+
+        /* .box1{
+            display: flex;
+            justify-content: space-around;
+
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: space-around;
+            
+        } */
+
+        
+
+        .up-box {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            justify-items: center;
+            text-align: center;
+            text-align: center;
+        }
+
+
+        .down-box {
+            display: flex;
+            gap: 402px;
+            align-items: center;
+            text-align: center;
+            margin-left: 198px;
+            margin-top: 20px;
+        }
+        .ri-building-3-fill {
+            font-size: 40px;
+        }
+
+        .ri-bank-fill {
+            font-size: 40px;
+        }   
+
+        .ri-earthquake-fill {
+            font-size: 40px;
+        }
+
+        .ri-base-station-fill {
+            font-size: 40px;
+        }
+
+        .ri-plane-fill {
+            font-size: 40px;
+        }
+
+        .ri-lightbulb-flash-line{
+            font-size: 40px;
+        }
+
+        .box1_1 {
+            margin-bottom: 20px;
+        }
+        
+        .box1_2 {
+            margin-bottom: 10px;
+        }
+        
+        .box2_1{
+            margin-bottom: 20px;
+        }
+
+        .box2_2 {
+            margin-bottom: 10px;
+        }
+
+        .box3_1{
+            margin-bottom: 20px;
+        }
+
+        .box3_2 {
+            margin-bottom: 10px;
+        }
+
+        .box4_1{
+            margin-bottom: 20px;
+        }
+
+        .box4_2 {
+            margin-bottom: 10px;
+        }
+
+        .box5_1{
+            margin-bottom: 20px;
+        }
+
+        .box5_2 {
+            margin-bottom: 10px;
+        }
+
+        .box6_1{
+            margin-bottom: 20px;
+            padding-right: 50px;
+        }
+
+        .box6_2{
+            margin-bottom: 20px;
+        }
+
+        .p-btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+            flex-direction: column;
+            background-color: #403F4C;
+            padding-bottom:89px ;
+        }
+        
+        .hero3 button {
+            background-color: #017BFF;
+            color: white;
+            height: 40px;
+            width: 170px;
+            border-radius: 10px;
+            border: none;
+            font-family: "Open Sans", -apple-system, "system-ui", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 30px;
+            margin-top: 40px;
+        }
+
+        .hero3-moto {
+            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+        }
+
+        .hero3 button:hover {
+            cursor: pointer;
+            transform: translateY(-1px);
+            transition: 0.1s ease;
+            background-color: #3289FF;
+        }
+
+        .hero3 button span {
+            color:  #017BFF;
+            background-color: white;
+            font-size: 15px;
+            text-align: center;
+            border-radius: 50%;
+        }
