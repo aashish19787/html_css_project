@@ -407,9 +407,43 @@
         .hero5 {
             background-color: #403F4C;
             color: white;
-            height: auto;
+            height: 550px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            padding-right: 30px;
+            padding-left: 30px;
+            
         }
 
+        .box{
+            /* border: red solid 2px; */
+            justify-items: center;
+            text-align: center;
+            align-items: center;
+            /* padding-top: 20%; */
+
+        }
+
+        .box h1{
+            font-size: 50px;
+            padding-top: 50px;
+
+
+        }
+
+        .box h5{
+            font-size: 18px;
+            padding-top: 25px;
+            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
+        }
+
+        .box p {
+            font-size: 14px;
+            padding-top: 10px;
+            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
+        }
+/* 
         .up-box2 {
             display: flex;
             justify-content: space-around;
@@ -417,6 +451,8 @@
             justify-items: center;
             text-align: center;
             text-align: center;
+            border: solid red 2px;
+            height: 200px;
         }
 
         .down-box2 {
@@ -426,6 +462,18 @@
             justify-items: center;
             text-align: center;
             text-align: center;
+            border: solid red 2px;
+            height: 200px;
+        }
+
+
+        #up-box2{
+            border: #017BFF solid 2px;
+        }
+
+        #down-box2{
+            border: #017BFF solid 2px;
+
         }
 
         .ri-dashboard-3-fill{
@@ -454,14 +502,42 @@
 
         .ri-plug-3-line{
             font-size: 40px;
+        } */
+
+        
+
+        .pp {
+            color: black;
         }
 
-        #up-box2{
-            margin-top: 70px;
-            padding: 20px;
+        .ri-drag-move-2-line{
+            display: inline-block;
+            transform: rotate(45deg);
+        }
+
+        .ri-picture-in-picture-line{
+            display: inline-block;
+            transform: rotate(270deg);
+        }
+        .pp{
+            color: white;
         }
 
 
+        footer{
+            background-color: #403F4C;
+            color: rgb(108, 117, 125);
+            display: flex;
+        }
 
+        .line {
+            color: white;
+        }
 
+        .front a{
+            color: rgb(108, 117, 125);
+        }
 
+        .rotate-logo{
+            
+        }
