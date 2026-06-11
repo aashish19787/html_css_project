@@ -64,6 +64,7 @@
             padding: auto;
             font-weight: bold;
             border: #434D5F 2px solid;
+            box-shadow: 22px 26px 41px -9px rgba(0,0,0,0.1);
         }
 
         .download-btn :hover {
@@ -443,72 +444,6 @@
             padding-top: 10px;
             font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
         }
-/* 
-        .up-box2 {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            justify-items: center;
-            text-align: center;
-            text-align: center;
-            border: solid red 2px;
-            height: 200px;
-        }
-
-        .down-box2 {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            justify-items: center;
-            text-align: center;
-            text-align: center;
-            border: solid red 2px;
-            height: 200px;
-        }
-
-
-        #up-box2{
-            border: #017BFF solid 2px;
-        }
-
-        #down-box2{
-            border: #017BFF solid 2px;
-
-        }
-
-        .ri-dashboard-3-fill{
-            font-size: 40px;
-        }
-
-        .ri-picture-in-picture-line {
-            font-size: 40px;
-        }
-
-        .ri-drag-move-2-line{
-            font-size: 40px;
-        }
-
-        .ri-hard-drive-3-line{
-            font-size: 40px;
-        }
-
-        .ri-picture-in-picture-line{
-            font-size: 40px;
-        }   
-
-        .ri-pulse-line{
-            font-size: 40px;
-        }
-
-        .ri-plug-3-line{
-            font-size: 40px;
-        } */
-
-        
-
-        .pp {
-            color: black;
-        }
 
         .ri-drag-move-2-line{
             display: inline-block;
@@ -519,25 +454,101 @@
             display: inline-block;
             transform: rotate(270deg);
         }
-        .pp{
-            color: white;
-        }
-
 
         footer{
             background-color: #403F4C;
             color: rgb(108, 117, 125);
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 5fr 1fr;
+        }
+
+       .front {
+            text-align: center;
+            align-content: center;
+       }
+
+        .front a{
+            color: rgb(108, 117, 125);
+            font-size: 22px;
+            line-height: 22px;
+        }
+
+        .mid {
+            height: 70px;
+            font-size: 11px;
+            line-height: 13px;
+            font-family: "open sans", "helvetica neue", Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            align-content: center;
+            text-align: center;
+            padding: 0px 200px
         }
 
         .line {
             color: white;
         }
 
-        .front a{
-            color: rgb(108, 117, 125);
+
+        .rotate-logo {
+            text-align: end;
+            padding-right: 30px;
+            padding-top: 10px;
+            opacity: 0.6;
+            display: inline-block; 
+            cursor: pointer;
+            transition: opacity 0.3s ease; 
         }
 
-        .rotate-logo{
-            
+        .rotate-logo:hover {
+            opacity: 1;
         }
+
+        .rotate-logo:hover img {
+            animation: spin 0.2s linear infinite;
+        }
+
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+
+        .nav-lists li {
+    position: relative;
+}
+/* 
+/* Dropdown Menu */
+.dropdown-getstarted {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    min-width: 220px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    z-index: 1000;
+    padding: 0px 0;
+}
+
+.dropdown-getstarted a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.dropdown-getstarted a:hover {
+    background-color: #f2f2f2;
+    color: #017BFF;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-getstarted {
+    display: block;
+}
