@@ -123,6 +123,11 @@ nav{
     border: 1px solid rgba(0, 0, 0, 0) !important;
 }
 
+.landing-below button:hover {
+    cursor: pointer;
+    background-color: black;
+}
+
 .hero {
     margin: 100px 150px auto 150px;
     display: flex;
@@ -147,6 +152,13 @@ nav{
     font-weight: 500;
     font-family: Inter, serif;
 }
+
+.hero1 a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
 
 .hero1 p {
     margin-top: 12px;
@@ -173,4 +185,34 @@ nav{
 .explore :hover {
     color: black;
     cursor: pointer;
+}
+
+.kit-middle p span {
+    color:  #387ed1;
+}
+
+.kit-connect {
+    display: flex;
+    margin: 70px 0px 0px 0px;
+    background-color: #F6FBFF;
+    align-items: center;
+    height: 100px;
+}
+
+.kit-img{
+    margin: 0px 0px 0px 150px;
+}
+
+.kit-middle{
+    margin: 0px 40px 0px 40px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: Inter, serif;
+    color: 
+rgb(102, 102, 102);
+}
+
+.kit-design {
+    margin: 0px 150px 0px 0px;
 }
