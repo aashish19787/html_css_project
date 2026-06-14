@@ -216,3 +216,44 @@ rgb(102, 102, 102);
 .kit-design {
     margin: 0px 150px 0px 0px;
 }
+
+.pricing {
+    display: flex;
+    /* width: 500px; */
+    margin: 120px 0 0 150px;
+    
+}
+
+.pricing-p {
+    width: 400px;
+}
+
+.pricing-p p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: Inter, serif;
+
+}
+
+.pricing-p p span {
+    color: #387ed1;
+}
+
+.pricing-p p span:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.pricing-p h2 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    font-family: Inter, serif;
+}
+
+
+.pricing img{
+    display: flex;
+    
+}
